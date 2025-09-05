@@ -17,6 +17,9 @@ namespace EventDriven.Project.Enrollment.UI
             InitializeComponent();
         }
 
-
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -36,6 +36,7 @@
             this.lblEnrollManageSys = new System.Windows.Forms.Label();
             this.ptbLogo2 = new SATAUiFramework.Controls.SATAPictureBox();
             this.btnContinue = new FrameworkTest.SATAButton();
+            this.btnExit = new CuoreUI.Controls.cuiLabel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbLogo1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptgBG)).BeginInit();
@@ -45,6 +46,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(22)))), ((int)(((byte)(22)))));
+            this.panel1.Controls.Add(this.btnExit);
             this.panel1.Controls.Add(this.lblBNHS);
             this.panel1.Controls.Add(this.ptbLogo1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -157,6 +159,22 @@
             this.btnContinue.TextAutoCenter = true;
             this.btnContinue.TextOffset = new System.Drawing.Point(0, 0);
             // 
+            // btnExit
+            // 
+            this.btnExit.BackColor = System.Drawing.Color.Transparent;
+            this.btnExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnExit.Content = "X";
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.ForeColor = System.Drawing.Color.White;
+            this.btnExit.HorizontalAlignment = System.Drawing.StringAlignment.Center;
+            this.btnExit.Location = new System.Drawing.Point(880, 8);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(97, 38);
+            this.btnExit.TabIndex = 9;
+            this.btnExit.VerticalAlignment = System.Drawing.StringAlignment.Near;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
             // StartPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -191,6 +209,7 @@
         private System.Windows.Forms.Label lblEnrollManageSys;
         private SATAUiFramework.Controls.SATAPictureBox ptbLogo2;
         private FrameworkTest.SATAButton btnContinue;
+        private CuoreUI.Controls.cuiLabel btnExit;
     }
 }
 
