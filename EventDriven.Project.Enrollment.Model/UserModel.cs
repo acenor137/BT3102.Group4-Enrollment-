@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace EventDriven.Project.Enrollment.Model
 {
-    public class Class1
+    public class UserModel
     {
+        public int Id { get; set; }
+        public string Username  { get; set; }
+        public string Password { get; set; }
 
     }
 }
