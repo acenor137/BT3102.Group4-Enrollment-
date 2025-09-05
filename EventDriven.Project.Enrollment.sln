@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDriven.Project.Enrollment", "EventDriven.Project.Enrollment\EventDriven.Project.Enrollment.csproj", "{14B5DAED-998B-4119-B1DF-523628E5F61F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDriven.Project.Enrollment.Model", "EventDriven.Project.Enrollment.Model\EventDriven.Project.Enrollment.Model.csproj", "{619E6ABB-FB11-4AD2-B17F-4845464D87C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDriven.Project.Enrollment.UI", "EventDriven.Project.Enrollment.UI\EventDriven.Project.Enrollment.UI.csproj", "{0976CC9B-462C-4FEC-BA5A-B702380D9CA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{619E6ABB-FB11-4AD2-B17F-4845464D87C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{619E6ABB-FB11-4AD2-B17F-4845464D87C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{619E6ABB-FB11-4AD2-B17F-4845464D87C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0976CC9B-462C-4FEC-BA5A-B702380D9CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0976CC9B-462C-4FEC-BA5A-B702380D9CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0976CC9B-462C-4FEC-BA5A-B702380D9CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0976CC9B-462C-4FEC-BA5A-B702380D9CA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
