@@ -33,18 +33,18 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblBNHS = new System.Windows.Forms.Label();
             this.ptbLogo1 = new SATAUiFramework.Controls.SATAPictureBox();
-            this.ptgBG = new System.Windows.Forms.PictureBox();
             this.sataPanel1 = new SATAUiFramework.SATAPanel();
             this.txtPassword = new SATATextBox();
             this.txtUserName = new SATATextBox();
             this.btnLogin = new FrameworkTest.SATAButton();
             this.lblSchool = new System.Windows.Forms.Label();
             this.ptgLogo2 = new SATAUiFramework.Controls.SATAPictureBox();
+            this.ptgBG = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbLogo1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ptgBG)).BeginInit();
             this.sataPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptgLogo2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptgBG)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -84,16 +84,6 @@
             this.ptbLogo1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.ptbLogo1.TabIndex = 1;
             this.ptbLogo1.TabStop = false;
-            // 
-            // ptgBG
-            // 
-            this.ptgBG.Image = ((System.Drawing.Image)(resources.GetObject("ptgBG.Image")));
-            this.ptgBG.Location = new System.Drawing.Point(-55, 63);
-            this.ptgBG.Name = "ptgBG";
-            this.ptgBG.Size = new System.Drawing.Size(1068, 540);
-            this.ptgBG.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.ptgBG.TabIndex = 5;
-            this.ptgBG.TabStop = false;
             // 
             // sataPanel1
             // 
@@ -224,6 +214,16 @@
             this.ptgLogo2.TabIndex = 3;
             this.ptgLogo2.TabStop = false;
             // 
+            // ptgBG
+            // 
+            this.ptgBG.Image = ((System.Drawing.Image)(resources.GetObject("ptgBG.Image")));
+            this.ptgBG.Location = new System.Drawing.Point(-55, 63);
+            this.ptgBG.Name = "ptgBG";
+            this.ptgBG.Size = new System.Drawing.Size(1068, 540);
+            this.ptgBG.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ptgBG.TabIndex = 5;
+            this.ptgBG.TabStop = false;
+            // 
             // Login
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -238,10 +238,10 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbLogo1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ptgBG)).EndInit();
             this.sataPanel1.ResumeLayout(false);
             this.sataPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptgLogo2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptgBG)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -250,12 +250,12 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblBNHS;
         private SATAUiFramework.Controls.SATAPictureBox ptbLogo1;
-        private System.Windows.Forms.PictureBox ptgBG;
         private SATAUiFramework.SATAPanel sataPanel1;
         private SATAUiFramework.Controls.SATAPictureBox ptgLogo2;
         private System.Windows.Forms.Label lblSchool;
         private FrameworkTest.SATAButton btnLogin;
         private SATATextBox txtPassword;
         private SATATextBox txtUserName;
+        private System.Windows.Forms.PictureBox ptgBG;
     }
 }

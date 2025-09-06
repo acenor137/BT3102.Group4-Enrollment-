@@ -26,5 +26,10 @@ namespace EventDriven.Project.Enrollment.UI
             btnContinue.Parent = ptgBG;
             btnContinue.BackColor = Color.Transparent;
         }
+
+        private void btnContinue_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -156,6 +156,7 @@
             this.btnContinue.TabIndex = 0;
             this.btnContinue.TextAutoCenter = true;
             this.btnContinue.TextOffset = new System.Drawing.Point(0, 0);
+            this.btnContinue.Click += new System.EventHandler(this.btnContinue_Click);
             // 
             // StartPage
             // 
