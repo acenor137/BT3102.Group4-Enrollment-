@@ -1,0 +1,14 @@
+C:\Users\sofia\Source\Repos\BT3102.Group4-Enrollment-\EventDriven.Project.Enrollment.UI\bin\Debug\EventDriven.Project.Enrollment.UI.exe.config
+C:\Users\sofia\Source\Repos\BT3102.Group4-Enrollment-\EventDriven.Project.Enrollment.UI\bin\Debug\EventDriven.Project.Enrollment.UI.exe
+C:\Users\sofia\Source\Repos\BT3102.Group4-Enrollment-\EventDriven.Project.Enrollment.UI\bin\Debug\EventDriven.Project.Enrollment.UI.pdb
+C:\Users\sofia\Source\Repos\BT3102.Group4-Enrollment-\EventDriven.Project.Enrollment.UI\bin\Debug\CuoreUI.dll
+C:\Users\sofia\Source\Repos\BT3102.Group4-Enrollment-\EventDriven.Project.Enrollment.UI\obj\Debug\EventDriven.Project.Enrollment.UI.csproj.AssemblyReference.cache
+C:\Users\sofia\Source\Repos\BT3102.Group4-Enrollment-\EventDriven.Project.Enrollment.UI\obj\Debug\EventDriven.Project.Enrollment.UI.Properties.Resources.resources
+C:\Users\sofia\Source\Repos\BT3102.Group4-Enrollment-\EventDriven.Project.Enrollment.UI\obj\Debug\EventDriven.Project.Enrollment.UI.csproj.GenerateResource.cache
+C:\Users\sofia\Source\Repos\BT3102.Group4-Enrollment-\EventDriven.Project.Enrollment.UI\obj\Debug\EventDriven.Project.Enrollment.UI.csproj.CoreCompileInputs.cache
+C:\Users\sofia\Source\Repos\BT3102.Group4-Enrollment-\EventDriven.Project.Enrollment.UI\obj\Debug\EventDri.DB885127.Up2Date
+C:\Users\sofia\Source\Repos\BT3102.Group4-Enrollment-\EventDriven.Project.Enrollment.UI\obj\Debug\EventDriven.Project.Enrollment.UI.exe
+C:\Users\sofia\Source\Repos\BT3102.Group4-Enrollment-\EventDriven.Project.Enrollment.UI\obj\Debug\EventDriven.Project.Enrollment.UI.pdb
+C:\Users\sofia\Source\Repos\BT3102.Group4-Enrollment-\EventDriven.Project.Enrollment.UI\bin\Debug\SATAUiFramework.dll
+C:\Users\sofia\Source\Repos\BT3102.Group4-Enrollment-\EventDriven.Project.Enrollment.UI\obj\Debug\EventDriven.Project.Enrollment.UI.Login.resources
+C:\Users\sofia\Source\Repos\BT3102.Group4-Enrollment-\EventDriven.Project.Enrollment.UI\obj\Debug\EventDriven.Project.Enrollment.UI.StartPage.resources
