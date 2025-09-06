@@ -29,9 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
-            SATAUiFramework.BorderRadius borderRadius2 = new SATAUiFramework.BorderRadius();
+            SATAUiFramework.BorderRadius borderRadius1 = new SATAUiFramework.BorderRadius();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnExit = new CuoreUI.Controls.cuiLabel();
             this.lblBNHS = new System.Windows.Forms.Label();
             this.ptbLogo1 = new SATAUiFramework.Controls.SATAPictureBox();
             this.ptgBG = new System.Windows.Forms.PictureBox();
@@ -51,7 +50,6 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(22)))), ((int)(((byte)(22)))));
-            this.panel1.Controls.Add(this.btnExit);
             this.panel1.Controls.Add(this.lblBNHS);
             this.panel1.Controls.Add(this.ptbLogo1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -59,22 +57,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(957, 68);
             this.panel1.TabIndex = 4;
-            // 
-            // btnExit
-            // 
-            this.btnExit.BackColor = System.Drawing.Color.Transparent;
-            this.btnExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnExit.Content = "X";
-            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.ForeColor = System.Drawing.Color.White;
-            this.btnExit.HorizontalAlignment = System.Drawing.StringAlignment.Center;
-            this.btnExit.Location = new System.Drawing.Point(877, 13);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(97, 38);
-            this.btnExit.TabIndex = 8;
-            this.btnExit.VerticalAlignment = System.Drawing.StringAlignment.Near;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // lblBNHS
             // 
@@ -117,11 +99,11 @@
             // 
             this.sataPanel1.BackColor2 = System.Drawing.SystemColors.Control;
             this.sataPanel1.BorderColor = System.Drawing.Color.Black;
-            borderRadius2.BottomLeft = 10;
-            borderRadius2.BottomRight = 10;
-            borderRadius2.TopLeft = 10;
-            borderRadius2.TopRight = 10;
-            this.sataPanel1.BorderRadius = borderRadius2;
+            borderRadius1.BottomLeft = 10;
+            borderRadius1.BottomRight = 10;
+            borderRadius1.TopLeft = 10;
+            borderRadius1.TopRight = 10;
+            this.sataPanel1.BorderRadius = borderRadius1;
             this.sataPanel1.BorderThickness = 0;
             this.sataPanel1.Controls.Add(this.txtPassword);
             this.sataPanel1.Controls.Add(this.txtUserName);
@@ -275,6 +257,5 @@
         private FrameworkTest.SATAButton btnLogin;
         private SATATextBox txtPassword;
         private SATATextBox txtUserName;
-        private CuoreUI.Controls.cuiLabel btnExit;
     }
 }
