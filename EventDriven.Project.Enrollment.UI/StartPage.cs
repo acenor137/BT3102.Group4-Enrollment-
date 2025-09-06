@@ -26,10 +26,5 @@ namespace EventDriven.Project.Enrollment.UI
             btnContinue.Parent = ptgBG;
             btnContinue.BackColor = Color.Transparent;
         }
-
-        private void btnExit_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
     }
 }
